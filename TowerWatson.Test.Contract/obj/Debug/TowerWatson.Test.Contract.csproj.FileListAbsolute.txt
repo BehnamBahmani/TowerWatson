@@ -1,5 +1,0 @@
-D:\Development\Projects\TowerWatson\TowerWatson.Test.Contract\bin\Debug\TowerWatson.Test.Contract.dll
-D:\Development\Projects\TowerWatson\TowerWatson.Test.Contract\bin\Debug\TowerWatson.Test.Contract.pdb
-D:\Development\Projects\TowerWatson\TowerWatson.Test.Contract\obj\Debug\TowerWatson.Test.Contract.csprojResolveAssemblyReference.cache
-D:\Development\Projects\TowerWatson\TowerWatson.Test.Contract\obj\Debug\TowerWatson.Test.Contract.dll
-D:\Development\Projects\TowerWatson\TowerWatson.Test.Contract\obj\Debug\TowerWatson.Test.Contract.pdb

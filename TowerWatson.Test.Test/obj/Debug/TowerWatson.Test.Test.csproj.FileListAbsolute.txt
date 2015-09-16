@@ -1,0 +1,16 @@
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Test.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Test.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\obj\Debug\TowerWatson.Test.Test.csprojResolveAssemblyReference.cache
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\obj\Debug\TowerWatson.Test.Test.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\obj\Debug\TowerWatson.Test.Test.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\nunit.framework.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Contract.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Init.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Service.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\StructureMap.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Contract.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Init.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\TowerWatson.Test.Service.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\nunit.framework.xml
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\StructureMap.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Test\bin\Debug\StructureMap.xml

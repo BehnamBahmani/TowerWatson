@@ -1,0 +1,7 @@
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\bin\Debug\TowerWatson.Test.GUI.Common.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\bin\Debug\TowerWatson.Test.GUI.Common.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\obj\Debug\TowerWatson.Test.GUI.Common.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\obj\Debug\TowerWatson.Test.GUI.Common.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\bin\Debug\GalaSoft.MvvmLight.WPF4.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.GUI.Common\bin\Debug\GalaSoft.MvvmLight.WPF4.xml

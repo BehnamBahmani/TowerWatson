@@ -1,0 +1,12 @@
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\TowerWatson.Test.Init.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\TowerWatson.Test.Init.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\obj\Debug\TowerWatson.Test.Init.csprojResolveAssemblyReference.cache
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\obj\Debug\TowerWatson.Test.Init.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\obj\Debug\TowerWatson.Test.Init.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\StructureMap.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\TowerWatson.Test.Contract.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\TowerWatson.Test.Service.dll
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\TowerWatson.Test.Contract.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\TowerWatson.Test.Service.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\StructureMap.pdb
+D:\Development\Projects\TowerWatson\TowerWatson.Test.Init\bin\Debug\StructureMap.xml

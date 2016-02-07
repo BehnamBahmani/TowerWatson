@@ -7,5 +7,6 @@ namespace TowerWatson.Test.Contract.Exceptions
         {
             
         }
+
     }
 }

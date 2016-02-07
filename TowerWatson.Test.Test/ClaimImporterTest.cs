@@ -70,6 +70,7 @@ namespace TowerWatson.Test.Test
             Assert.AreEqual(processResult.EarliestOriginYear, 0);
             Assert.AreEqual(processResult.NumberOfDevelopment, 0);
             Assert.AreEqual(processResult.AccumulatedTriangle, null);
+            Assert.IsNotNull(processResult.Exception);
 
 
         }

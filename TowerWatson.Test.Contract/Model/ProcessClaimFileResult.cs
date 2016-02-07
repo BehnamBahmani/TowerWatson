@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace TowerWatson.Test.Contract.Model
@@ -7,5 +8,6 @@ namespace TowerWatson.Test.Contract.Model
         public int EarliestOriginYear { get; set; }
         public double NumberOfDevelopment { get; set; }
         public Dictionary<string, double[]> AccumulatedTriangle { get; set; }
+        public Exception Exception { get; set; }
     }
 }

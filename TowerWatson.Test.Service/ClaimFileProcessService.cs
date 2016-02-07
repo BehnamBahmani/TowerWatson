@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using TowerWatson.Test.Contract.Exceptions;
 using TowerWatson.Test.Contract.Interfaces;
 using TowerWatson.Test.Contract.Model;
 
@@ -19,7 +20,7 @@ namespace TowerWatson.Test.Service
         public ProcessClaimFileResult Process(Dictionary<string, Dictionary<int, List<BaseClaimRowMetaData>>> rows)
         {
             //We can throw Exception here too, depend on our policies
-            if (!rows.Any()) return new ProcessClaimFileResult();
+            if (!rows.Any()) return new ProcessClaimFileResult{Exception = new ProccessFileRowNotFoundException() };
 
             var originYears = rows.SelectMany(r => r.Value.Select(v => v.Key)).Distinct().OrderBy(o => o).ToArray();
             _earliestOriginYear = originYears.First();
@@ -39,17 +40,17 @@ namespace TowerWatson.Test.Service
             var accumulatedTriangle = new Dictionary<string, double[]>();
             foreach (var prodcut in rows)
             {
-                double[] accumulatedTrianglValues = new double[CalculateNumberOfTriangularNumbers(_numberOfDevelopment)];
+                var accumulatedTrianglValues = new double[CalculateNumberOfTriangularNumbers(_numberOfDevelopment)];
                 foreach (var originYear in prodcut.Value)
                 {
-                    int baseIndex = CalculateNumberOfTriangularNumbers(_numberOfDevelopment) - CalculateNumberOfTriangularNumbers(_numberOfDevelopment - (originYear.Key - _earliestOriginYear));
-                    
-                    int priYear = originYear.Key;
+                    var baseIndex = CalculateNumberOfTriangularNumbers(_numberOfDevelopment) - CalculateNumberOfTriangularNumbers(_numberOfDevelopment - (originYear.Key - _earliestOriginYear));
+
+                    var priYear = originYear.Key;
                     foreach (var baseClaimRowMetaData in originYear.Value)
                     {
                         FillInternalGaps(accumulatedTrianglValues, baseIndex, originYear.Key, ref priYear, baseClaimRowMetaData);
 
-                        int offset = baseClaimRowMetaData.DevelopmentYear - originYear.Key;
+                        var offset = baseClaimRowMetaData.DevelopmentYear - originYear.Key;
                         accumulatedTrianglValues[baseIndex + offset] = 
                             offset == 0 ? baseClaimRowMetaData.IncrementalValue : 
                             accumulatedTrianglValues[baseIndex + offset - 1] + baseClaimRowMetaData.IncrementalValue;

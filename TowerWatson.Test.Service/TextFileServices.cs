@@ -9,8 +9,8 @@ namespace TowerWatson.Test.Service
     {
         public void Write(string filename, string text)
         {
-            string directory = Path.GetDirectoryName(filename);
-            if (!Directory.Exists(directory)) Directory.CreateDirectory(directory);
+            var directory = Path.GetDirectoryName(filename);
+            if (directory != null && !Directory.Exists(directory)) Directory.CreateDirectory(directory);
 
             File.WriteAllText(filename, text);
         }

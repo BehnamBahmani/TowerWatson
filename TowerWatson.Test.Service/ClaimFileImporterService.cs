@@ -13,11 +13,12 @@ namespace TowerWatson.Test.Service
         public Dictionary<string, Dictionary<int, List<BaseClaimRowMetaData>>> Import(string filename)
         {
             Exceptions = new List<Exception>();
-            TextFileServices textFileServices = new TextFileServices();
+            var textFileServices = new TextFileServices();
             var text = textFileServices.Read(filename);
 
             return Process(text);
         }
+        
 
         private Dictionary<string, Dictionary<int, List<BaseClaimRowMetaData>>> Process(IEnumerable<string> text)
         {
@@ -51,12 +52,11 @@ namespace TowerWatson.Test.Service
                 return null;
             }
 
-            string productName;
             int originYear;
             int developmentYear;
             double incrementalValue;
 
-            productName = parts[0];
+            var productName = parts[0];
             int.TryParse(parts[1], out originYear);
             int.TryParse(parts[2], out developmentYear);
             double.TryParse(parts[3], out incrementalValue);
@@ -67,7 +67,7 @@ namespace TowerWatson.Test.Service
 
         private bool CheckValues(string line, string productName, int originYear, int developmentYear, double incrementalValue)
         {
-            List<Exception> exceptions = new List<Exception>();
+            var exceptions = new List<Exception>();
 
             if (string.IsNullOrEmpty(productName)) exceptions.Add(new ProductNameIsEmptyException(line));
             if (originYear < 1900) exceptions.Add(new InvalidOriginYearException(line));

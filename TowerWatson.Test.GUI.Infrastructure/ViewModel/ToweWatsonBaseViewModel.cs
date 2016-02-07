@@ -3,7 +3,6 @@ using GalaSoft.MvvmLight.Messaging;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
 using System.Text;
 using TowerWatson.Test.GUI.Common.Messenger;
 

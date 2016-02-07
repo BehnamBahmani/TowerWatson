@@ -12,7 +12,7 @@ namespace TowerWatson.Test.Init
             {
                 scanner.TheCallingAssembly();
 
-                scanner.Assembly("TowerWatson.Test.GUI");
+                scanner.Assembly("TowerWatson.Test.GUI.Shell");
                 scanner.Assembly("TowerWatson.Test.Service");
                 scanner.Assembly("TowerWatson.Test.Contract");
                 scanner.WithDefaultConventions();

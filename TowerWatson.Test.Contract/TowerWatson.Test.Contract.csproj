@@ -45,9 +45,11 @@
     <Compile Include="Exceptions\IncrementalValueIsLessThanZeroException.cs" />
     <Compile Include="Exceptions\InvalidNumberOfItemsPerRowException.cs" />
     <Compile Include="Exceptions\OriginYearIsZeroException.cs" />
+    <Compile Include="Exceptions\ProccessFileRowNotFoundException.cs" />
     <Compile Include="Exceptions\ProductNameIsEmptyException.cs" />
     <Compile Include="Interfaces\IClaimFileProcessService.cs" />
     <Compile Include="Interfaces\IClaimFileImporterService.cs" />
+    <Compile Include="Interfaces\IDialogService.cs" />
     <Compile Include="Interfaces\ITextFileServices.cs" />
     <Compile Include="Model\ClaimRow.cs" />
     <Compile Include="Model\BaseClaimRowMetaData.cs" />

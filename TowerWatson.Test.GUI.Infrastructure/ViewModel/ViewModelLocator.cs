@@ -1,5 +1,3 @@
-using GalaSoft.MvvmLight.Ioc;
-using Microsoft.Practices.ServiceLocation;
 using StructureMap;
 
 namespace TowerWatson.Test.GUI.Infrastructure.ViewModel

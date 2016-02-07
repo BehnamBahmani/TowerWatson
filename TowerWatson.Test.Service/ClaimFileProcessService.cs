@@ -19,8 +19,12 @@ namespace TowerWatson.Test.Service
         /// <returns></returns>
         public ProcessClaimFileResult Process(Dictionary<string, Dictionary<int, List<BaseClaimRowMetaData>>> rows)
         {
-            //We can throw Exception here too, depend on our policies
-            if (!rows.Any()) return new ProcessClaimFileResult{Exception = new ProccessFileRowNotFoundException() };
+            
+            if (!rows.Any())
+            {
+                //We can throw Exception here too, depend on our policies
+                return new ProcessClaimFileResult{Exception = new ProcessFileRowNotFoundException() };
+            }
 
             var originYears = rows.SelectMany(r => r.Value.Select(v => v.Key)).Distinct().OrderBy(o => o).ToArray();
             _earliestOriginYear = originYears.First();
